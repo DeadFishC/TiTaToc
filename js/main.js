@@ -71,9 +71,11 @@ const start = () => {
         activePlayer = player1;
     else
         activePlayer = player2;
-    $('.playerField').addClass('fadeout');
+    $('.playerField').addClass('fadeoutSlide');
     $('.grid_container').addClass('showGridLines');
     $('.wrapper').addClass('gridPulse');
+    $('#playButton').addClass('spinButton');
+    $('.playButton').addClass('fadeout');
 }
 
 const playerFactory = (sign, name) => {

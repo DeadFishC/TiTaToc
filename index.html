@@ -12,7 +12,8 @@
   <link href="css/style.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">  
 </head>
 
 <body>
@@ -42,8 +43,8 @@
             onchange="$('#h2player1').text(this.value);" onkeyup="this.onchange();" required>
       </p>
   </div>
-  <div class="buttons fadein">
-      <button id="playButton" type="submit">Play</button><br>
+  <div class="playButton fadein">
+    <input type="image" id="playButton" type="submit" src="img/playButton.png" alt="Play button"/>
   </div>
   <div class="player fadein" id="player2">
     <h2><img src="img/circle.svg" class="" alt="Circle" onload="SVGInject(this)" style="width: 1em; height: 1em;">&nbsp;&nbsp;<span id="h2player2">Player 2</span></h2>
